@@ -637,7 +637,7 @@ article{
 /* Footer */
 
 footer{
-    height: 26vh;
+    height: 20vh;
     margin: 0 1rem;
 }
 
@@ -670,4 +670,8 @@ footer p{
 .footer-nav a{
     text-decoration: none;
     color: white;
+}
+
+.footer-nav a:hover{
+    color: black;
 }
