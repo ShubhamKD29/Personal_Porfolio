@@ -103,10 +103,32 @@
     }
 
     .card{
+        height: 310px;
+        width: 300px;
+        border-radius: 4px;
+        transition: .5s;
+    }
+
+    .card-title{
+        height: 250px;
+        width: 401px;
+        margin-top: 0;
+    }
+
+    .card-title p{
+        margin-top: 5px;
+    }
+
+    .card-images{
         height: 300px;
         width: 300px;
+        border-radius: 4px;
+        transition: .5s;
     }
    
+    .personal_github{
+        margin-top: 0;
+    }
 }
 
 /* @media screen and (max-width:570px){
