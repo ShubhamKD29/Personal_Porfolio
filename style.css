@@ -633,3 +633,41 @@ article{
     height: 3.8rem;
     width: 3.8rem;
 }
+
+/* Footer */
+
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footer-nav li:first-child{
+        margin-right: 0;
+        margin-left: 0;
+}
+
+.footer-nav ul{
+    width:100%;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:15vh;
+    font-size: 1.2em;
+    padding: 10px;
+    font-weight:550;
+    gap: 50px;
+}
+
+.footer-nav div{
+    background-color: rgb(102, 0, 102);
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: white;
+}
