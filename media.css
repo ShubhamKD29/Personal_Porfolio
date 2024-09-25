@@ -9,20 +9,20 @@
     }
 
     .sidebar{
-        width:50%;
-        height: 100%;
+        width:100%;
+        height: auto;
     }
 
 
 }
 
-@media screen and (max-width:700px){
+/* @media screen and (max-width:700px){
     .sidebar{
         width:100%;
         height:100%;
     }
 
-}
+} */
 
 
 @media screen and (max-width:1400px){
@@ -37,31 +37,36 @@
 }
 
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:600px){
+
 
     body{
-        width: 60rem;
-    }
-    
-    #profile{
-        margin-left: 10px;
-        width: 100vw;
-        height: 100vh;
+        width: fit-content;
+        background-color: aquamarine;
     }
 
+    #profile{
+        width: 300px;
+        gap: 70px;
+    }
 
     #name{
-        display: none;
+        margin-top: 20px;
+        margin-left: 1px;
+        font-size: 8px;
     }
 
+
     .profile-pic-container{
-        height: 500px;
-        width: 500px;
-        margin-left: 280px;
+        height: 350px;
+        width: 600px;
+        margin-left: 60px;
+        
     }
 
     .profile-pic-container img{
-        margin-bottom: 50px;
+        height: 300px;
+        width: 340px;
     }
 
 
@@ -69,29 +74,155 @@
         margin-top: 2rem;
     }
 
-    #profile, .personal-info-container{
+    .personal-info-container{
         display: flex;
+        width: 400px;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #profile{
+        display: flex;
+        width: 500px;
+        margin-left: 50px;
         flex-direction: column;
         align-items: center;
     }
 
-    #profile{
-        width:fit-content;
-    }
 
     section, .personal-info-container{
-        height: fit-content;
         margin-left: 0;
-
+        /* height: 100%; */
+        align-self: start;
+        margin-top: 5px;
     }
 
-    .personal-info-container{
-        /* margin-top: 60px; */
-        margin-left: 250px;
+    .personal-info-container p,h1{
+        font-size: 15px;
+        align-self: start;
     }
+
+    .social-container{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 28px;
+    }
+
+    .text_1{
+        margin-left: 120px;
+    }
+
+    .text_2{
+        margin-left: 90px;
+    }
+
+    .btn-container{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 18px;
+    }
+
+
+    #about{
+        margin-left: 0;
+    }
+
+    .about-text{
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+    }
+
+    .about-main-container{
+        display: flex;
+        width: 500px;
+        flex-direction: column;
+        align-items:flex-start;
+        margin-left: 18px;
+    }
+
+    .about-image-container{
+        height: 500px;
+        width: 350px;
+        margin-left: 0;
+    }
+
+    #about-image{
+        height: 500px;
+        width: 350px;
+    }
+
+    .about-content-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 340px;
+        margin-left: 0;
+    }
+
+    .about-experience-container, .about-education-container, .about-myself{
+        width: 300px;
+    }
+
+    .text-1{
+        display: flex;
+        justify-content: flex-start;
+        width: 300px;
+    }
+
+    /* .about-container{
+        display: flex;
+        flex-direction: column;
+        height: 1900px;
+        width: 100px;
+    } */
+
+
+
+    #experience{
+        margin-left: 0;
+    }
+
+    #experience-text{
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .sub-text-1{
+        width: 100px;
+    }
+
+    .experience-details-container, .about-container{
+        width: 400px;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        height: 1750px;
+        width: 500px;
+    }
+
+    .details-container{
+        width: 352px;
+    }
+
+    .details-container-2{
+        width: 350px;
+    }
+
+
+    .title{
+        font-size: 23px;
+    }
+
+    
 
     .menu-button{
-        margin-right: 350px;
+        margin-right: 630px;
     }
 
     section{
