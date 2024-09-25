@@ -42,7 +42,7 @@
 
     body{
         width: fit-content;
-        background-color: aquamarine;
+        background-color: #e8e8e8;
     }
 
     #profile{
@@ -215,6 +215,28 @@
     }
 
 
+    #projects{
+        margin-left: 0;
+    }
+
+    #project-text{
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #sub-text-2{
+        width: 110px;
+    }
+
+    .projects-container{
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+        align-items: flex-start;
+    }
+
     .title{
         font-size: 23px;
     }
@@ -222,7 +244,7 @@
     
 
     .menu-button{
-        margin-right: 630px;
+        margin-right: 300px;
     }
 
     section{
@@ -259,6 +281,47 @@
    
     .personal_github{
         margin-top: 0;
+    }
+
+    #contact{
+        margin-left: 0;
+    }
+
+    #contact-text{
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #sub-text-3{
+        width: 100px;
+    }
+
+    .contact-container{
+        margin-left: 10px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    footer{
+        width: 380px;
+        
+    }
+
+    #footer-ul{
+       font-size: 10px;
+       height: 250px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+    }
+
+    .nav-1{
+        width: 130px;
     }
 }
 
